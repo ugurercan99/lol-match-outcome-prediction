@@ -34,7 +34,7 @@ Hyperparameter tuning was performed using `GridSearchCV` with 5-fold `Stratified
 ## Results
 | Model | Test Accuracy |
 |------|--------------|
-| Random Forest | 0.967 |
+| Random Forest | 0.969 |
 | SVM | 0.965 |
 
 Both models show strong and balanced performance with no signs of overfitting.
