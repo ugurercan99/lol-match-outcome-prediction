@@ -46,9 +46,8 @@ Both models show strong and balanced performance with no signs of overfitting.
 - Matplotlib
 
 ## How to Run
-```bash
 pip install -r requirements.txt
-python src/train_model.py
+python3 src/train_model.py
 
 ## Future Improvements
 - Feature importance analysis (SHAP)
