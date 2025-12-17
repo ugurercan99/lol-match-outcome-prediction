@@ -49,3 +49,9 @@ Both models show strong and balanced performance with no signs of overfitting.
 ```bash
 pip install -r requirements.txt
 python src/train_model.py
+
+## Future Improvements
+- Feature importance analysis (SHAP)
+- Model comparison with gradient boosting
+- Deployment as a REST API
+
