@@ -34,7 +34,7 @@ Hyperparameter tuning was performed using `GridSearchCV` with 5-fold `Stratified
 ## Results
 | Model | Test Accuracy |
 |------|--------------|
-| Random Forest | 0.967 |
+| Random Forest | 0.969 |
 | SVM | 0.965 |
 
 Both models show strong and balanced performance with no signs of overfitting.
@@ -46,6 +46,11 @@ Both models show strong and balanced performance with no signs of overfitting.
 - Matplotlib
 
 ## How to Run
-```bash
 pip install -r requirements.txt
-python src/train_model.py
+python3 src/train_model.py
+
+## Future Improvements
+- Feature importance analysis (SHAP)
+- Model comparison with gradient boosting
+- Deployment as a REST API
+
